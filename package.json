@@ -1,0 +1,14 @@
+{
+  "name": "splunk-metrics-collectd",
+  "version": "1.0.0",
+  "description": "Demo for statsd collector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "statsd-client": "^0.4.7"
+  }
+}
