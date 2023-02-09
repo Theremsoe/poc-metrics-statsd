@@ -11,6 +11,11 @@ services:
       - 8000:8000
     volumes:
       - skupos-volume:/var/www/html
+  statsd:
+    container_name: "statsd-daemon"
+    image: statsd/statsd
+    networks:
+      - skupos-network
 networks:
   skupos-network:
     driver: bridge
